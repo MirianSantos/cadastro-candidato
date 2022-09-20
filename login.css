@@ -1,0 +1,44 @@
+/* Elementos da tag <body> */
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(-270deg, rgb(85, 85, 233), rgb(116, 61, 141), rgb(158, 65, 130));
+}
+
+/* Elementos da tag <div> */
+div{
+    background-color: rgba(0,0,0,0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+    opacity: 60%;
+}
+
+/* Elementos da tag <input> */
+input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+
+}
+
+/* Elementos da tag <button> com o estado da pseudoclasse "hover" */
+button {
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+
+}
+
+button:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}

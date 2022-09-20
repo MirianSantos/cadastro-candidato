@@ -1,0 +1,133 @@
+/* Todos os elementos da página */
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+/* Elementos com o ID "título" */
+#titulo {
+    background: #5624cc;
+    color: white; 
+    border-radius: 4px 4px 0px 0px;;
+    font-size: 20px;
+    text-align: center; 
+    padding: 5px 50px;    
+} 
+
+/* Elementos com o ID "subtitulo" */
+#subtitulo {
+    background: white;
+    color: #545555;
+    border: 0;   
+    border-radius: 5px;
+    padding-left: 28px;
+    padding-top: 20px;
+    margin-top: 2%;      
+    min-width: 312px;
+} 
+
+/* Elementos da tag <fieldset> */
+fieldset{
+    background-color: white;
+    border: 0;
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+    margin-bottom: 0.2px;
+    padding: 30px;       
+}
+
+.field-set-titulo {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+/* Elemento da tag <body> */
+body{
+    background-color: #f4ebff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2%;
+    align-items: center;
+}
+
+/* Elementos da classe "campo" */
+.campo {
+    margin-bottom: 0em;
+    margin-top: 0em;
+    font-weight: 400;
+}
+
+/* Elementos da classe "campo" da tag <label-float> e <input> */
+.label-float{
+    position: relative;
+    padding-top: 20px;  
+}
+  
+.label-float input{
+  border: 0;
+  border-bottom: 2px solid lightgrey;
+  outline: none;
+  min-width: 280px;
+  font-size: 16px;
+  transition: all .5s;
+  -webkit-appearance:none;
+  border-radius:0.5;  
+}
+  
+.label-float input:focus{
+  border-bottom: 2px solid rgb(97, 5, 97);
+  transition: .5ms;
+}
+
+/* Elemento da classe "botão" com o estado da pseudoclasse "hover" */
+.botao{
+  background-color:#fff;
+  border-radius: 5px; 
+  border-color: transparent; 
+  color: rgb(97, 5, 97);
+  text-decoration: none;
+  padding: 5px 10px; 
+  transition: 1s;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.2);  
+}
+
+.botao:hover {
+  background-color: rgb(238, 221, 247);
+}
+
+/* Elementos da classe "icon" */
+.material-icons {
+    color: #7e7e7e;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px; 
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    text-rendering: optimizeLegibility;
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}  
+
+/* Elementos da tag <footer> */
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+/* Media query dentro da tag <body> */
+@media (max-width: 480px) {
+  body {
+    margin: 4px;
+  }
+}

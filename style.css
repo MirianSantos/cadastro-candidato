@@ -1,0 +1,220 @@
+/* Todos os elementos da página */
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* Elementos da classe "titulo-principal" */
+.titulo-principal {
+    padding: 0px;
+
+}
+
+/* Elementos do ID "titulo" */
+#titulo {
+    background-color: #5624cc;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    border-radius: 4px 4px 0px 0px;
+    font-size: 15px;
+    padding: 10px;
+
+}
+
+/* Elementos da classe "campo", "div-titulo-campo", "div-label" e tag <input> */
+.campo {
+    margin-bottom: 1em;
+    margin-top: 0em;
+    font-weight: 300;
+
+}
+
+.campo input {
+    margin-right: 10px;
+
+}
+
+.div-titulo-campo {
+    margin-bottom: 20px;
+
+}
+
+.div-titulo-campo, .div-label { 
+    margin-top: 10px;
+
+}
+
+/* Elementos da classe "grupo", "grupo label", "div-radio", "div-titulo-campo" */
+.grupo {
+    width: 100%;
+
+}
+
+.grupo label, .div-radio, .div-titulo-campo {
+    top: 2%;
+    margin-left: 10px;
+    align-items: center;
+
+}
+
+/* Elementos da tag <fieldset>, <input>, classe "div-label", 'field-set-abaixo-titulo" e ID "subtitulo" */
+fieldset {
+    background-color: #fff;
+    border: 0;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    margin-bottom: 0.2px;
+    margin-left: 0em;
+    padding: 10px;
+
+}
+
+fieldset .div-label, fieldset #subtitulo {
+    padding: 8px;
+    margin-left: 5px;
+
+}
+
+.fieldset input {
+    margin-right: 10px; 
+
+}
+
+.field-set-abaixo-titulo {
+    border-radius: 0 0 8px 8px;
+
+}
+
+/* Elementos da tag <body> */
+body {
+    background-color: #f4ebff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-left: 28%;
+    margin-right: 28%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+ 
+}
+
+/* Elementos da tag <label> e <input> [type=radio] */
+label input{
+    display: flex;
+
+}
+
+input[type=radio], .label-float {
+    float: left;
+    padding: 5px;
+    margin-right: 10px;
+
+}
+
+/* Elementos da classe "div-radio" com o atributo radio, "div-radio-2" e tag <input> */
+.div-radio input[type=radio] {
+    float: revert;
+
+}
+
+.div-radio-2 {
+    float: left;
+    margin-top: 30px;
+    width: 10%;
+
+}
+
+.div-radio-2 input {
+    margin-bottom: 15px;
+}
+
+/* Elementos da classe "label-float" e tag <input> */
+.label-float{
+    position: relative;
+    padding-top: 40px;
+
+}
+  
+.label-float input{
+  border: 0;
+  border-bottom: 2px solid lightgrey;
+  outline: none;
+  min-width: 280px;
+  font-size: 16px;
+  transition: all .5s;
+  -webkit-appearance:none;
+  border-radius:0.5; 
+
+}
+  
+.label-float input:focus{
+  border-bottom: 2px solid rgb(97, 5, 97);
+  transition: .5ms;
+
+}
+
+/* Elementos da classe "botao" com o estado da pseudoclasse "hover" */
+.botao {
+    background-color: #fff;
+    color: rgb(97, 5, 97);
+    border-radius: 5px;
+    border: 0;
+    padding: 10px 25px;
+    margin: 15px; 
+    margin-left: 0px;
+    text-align: center;
+    transition: 1s;
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+
+}
+
+.botao:hover {
+    background-color: rgb(238, 221, 247);
+
+}
+
+/* Elementos da classe "icon" */
+.material-icons {
+    color: #7e7e7e;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px; 
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    text-rendering: optimizeLegibility;
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+
+} 
+
+/* Elementos da classe "div-titulo-experiencia"e tag <textarea> */
+.div-titulo-experiencia textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 1em;
+    border: 1px solid #dadce0;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+
+}
+
+/* Elementos da tag <footer> */
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 3%;
+
+  }
+
+/* Media query dentro da tag <body> */
+@media (max-width: 480px) {
+    body {
+      margin: 4px;
+    }
+  }
